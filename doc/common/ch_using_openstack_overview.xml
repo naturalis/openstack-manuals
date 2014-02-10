@@ -8,12 +8,17 @@
     xmlns:db="http://docbook.org/ns/docbook" version="5.0"
     xml:id="openstack_user_guide">
     <title>How can I <phrase audience="enduser">use</phrase><phrase
-            audience="adminuser">administer</phrase> an OpenStack
-        cloud?</title>
+            audience="adminuser">administer</phrase> the OpenStack
+        cloud at Naturalis?</title>
     <?dbhtml stop-chunking?>
     <para audience="enduser">As an OpenStack cloud end user, you can
-        provision your own resources within the limits set by
-        administrators.</para>
+      provision your own ICT resources, most importantly virtual machines,
+      within the limits set by the ICT department.</para>
+    <note>
+      <para>Do you need more resources? Please ask the head of your department to 
+        send a request to <link xlink:href="https://ictsupport.naturalis.nl">
+        ICT Support</link>.</para>
+    </note>
     <para audience="adminuser">As an OpenStack cloud administrative
         user, you can manage tenants, known as
         <glossterm baseform="project">projects</glossterm>, users, services, images,
@@ -25,7 +30,7 @@
             <para>The OpenStack dashboard. Use this Web-based
                 graphical interface, code named <link
                     xlink:href="https://github.com/openstack/horizon/"
-                    >horizon</link>, to view, create, and manage
+                    >Horizon</link>, to view, create, and manage
                     resources<phrase audience="adminuser"> and
                     services</phrase>.</para>
         </listitem>
@@ -34,20 +39,23 @@
                 OpenStack project has a command-line client that lets
                 you run simple commands to view, create, and manage
                     resources<phrase audience="adminuser"> and
-                    services</phrase> in a cloud and automate tasks by
+                    services</phrase> in the cloud and automate tasks by
                 using scripts.</para>
+        </listitem>
+        <listitem>
+          <para>The OpenStack API. In addition to these ways of interacting 
+                with the cloud, you
+                can access the OpenStack APIs directly or indirectly through
+                <link xlink:href="http://curl.haxx.se/">cURL</link>
+                commands or open SDKs. You can automate access or build tools
+                to manage resources and services by using the native OpenStack
+                APIs or the EC2 compatibility API.</para>
+            <para>To use the OpenStack APIs, it helps to be familiar with
+                HTTP/1.1, RESTful web services, the OpenStack services, and
+                JSON or XML data serialization formats.</para>
         </listitem>
     </itemizedlist>
     <para>You can modify these examples for your specific use
         cases.</para>
-    <para>In addition to these ways of interacting with a cloud, you
-        can access the OpenStack APIs directly or indirectly through
-            <link xlink:href="http://curl.haxx.se/">cURL</link>
-        commands or open SDKs. You can automate access or build tools
-        to manage resources and services by using the native OpenStack
-        APIs or the EC2 compatibility API.</para>
-    <para>To use the OpenStack APIs, it helps to be familiar with
-        HTTP/1.1, RESTful web services, the OpenStack services, and
-        JSON or XML data serialization formats.</para>
     <xi:include href="../common/section_dochistory.xml"/>
 </preface>

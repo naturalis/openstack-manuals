@@ -9,10 +9,11 @@
     <info>
         <title>OpenStack dashboard</title>
     </info>
-    <para>As a cloud end user, you can use the OpenStack dashboard to
-        provision your own resources within the limits set by
-        administrators. You can modify these examples to create other
-        types and sizes of server instances.</para>
+    <para>As a cloud end user, you can use the web-based graphical user 
+        interface called the Horizon dashboard to provision your own 
+        resources within the limits set by ICT. You can modify the 
+        examples in this section to create other types and sizes 
+        of server instances.</para>
 <?hard-pagebreak?>
     <xi:include href="../common/section_dashboard_access.xml"/>
     <?hard-pagebreak?>

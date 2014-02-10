@@ -4,7 +4,7 @@
   xmlns:xlink="http://www.w3.org/1999/xlink" version="5.0"
   xml:id="dashboard_manage_images">
   <title>Create and manage images</title>
-  <para>The cloud operator assigns roles to users. Roles determine who
+  <para>ICT assigns roles to users. Roles determine who
     can upload and manage images. The operator might restrict image
     upload and management to only cloud administrators or
     operators.</para>

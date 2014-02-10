@@ -11,10 +11,15 @@
     xml:id="Launching_Instances_using_Dashboard">
     <title>Configure access and security for instances</title>
     <?dbhtml stop-chunking?>
-    <para>Before you launch a virtual machine, you can add security
-        group rules to enable users to ping and SSH to the instances.
+    <para>Before you launch a virtual machine there are a things you 
+        have to keep in mind related to access and security. This section
+        explains what you have to take care of.</para>
+    <para>
+        First of all you have to configure security group rules to enable 
+        access over, for example, SSH, RDP or HTTP.
         To do so, you either add rules to the default security group
-        or add a security group with rules.</para>
+        or add a security group with rules. For information, see 
+        <xref linkend="security_groups_add_rule"/>.</para>
     <para>Keypairs are SSH credentials that are injected into images
         when they are launched. For this to work, the image must
         contain the <literal>cloud-init</literal> package. Create at
